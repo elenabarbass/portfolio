@@ -1,0 +1,182 @@
+@font-face{
+    src: url("../fuentes/OpenSans-Bold.ttf");
+    font-family: "OpenSans-Bold";
+}
+@font-face{
+    src: url("../fuentes/OpenSans-Regular.ttf");
+    font-family: "OpenSans-Regukar";
+}
+@font-face{
+    src: url("../fuentes/OpenSans-Light.ttf");
+    font-family: "OpenSans-Light";
+}
+.header {
+    background-image: url("../fotos/making-changes-to-mobile-wireframes.jpg");
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.about{
+    width: 90%;
+    margin: 0 auto;
+}
+.project{
+    width: 90%;
+    margin: 0 auto;
+}
+.proyecto1{
+    display: flex;
+    justify-content: space-between;
+}
+.proyecto2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.proyecto3{
+    display: flex;
+    justify-content: space-between;
+}
+.proyecto4{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.proyecto5{
+    display: flex;
+    justify-content: space-between;
+}
+.proyecto6{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.project-info {
+    width: 40%;
+    justify-content: space-around;
+}
+.img{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+.img img{
+    width: 100%;
+}
+    h1{
+        color: #4b4a4a;
+        font-family: "OpenSans-Bold"; 
+        font-size: 88px;
+        text-align: center;
+        padding-top: 700px;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    h2{
+        color: black;
+        font-family: "OpenSans-Bold"; 
+        font-size: 32px;
+        text-align: left;
+        padding-top: 32px;
+        padding-bottom: 32px;
+      }
+
+    h3{
+        color: #4b4a4a;
+        font-family: "OpenSans-Bold"; 
+        font-size: 24px;
+        text-align: left;
+        padding-top: 24px;
+        padding-bottom: 24px; 
+      }
+    p{
+        color:#414141;
+        font-family: "OpenSans-Regular"; 
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        line-height: 24px;
+        }
+.parrafo{ 
+     font-size: 18px;
+     line-height: 32px;
+
+}
+.iconos{
+    width: 100%;
+    height: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.iconos img{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+.phone img{
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;    
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phone img:hover{
+        -webkit-animation: tiembla 0.1s infinite;
+      }
+      @-webkit-keyframes tiembla{
+        0%  { -webkit-transform:rotateZ(-5deg); }
+        50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+        100%{ -webkit-transform:rotateZ( 5deg); }
+      }
+}
+.phone p{
+    display: flex;
+    justify-content: space-between;
+    
+}
+input {
+    border-radius: 10px 10px;
+    padding: 8px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+input:hover{
+    background-color:rgb(255, 123, 46);
+}
+input:active{
+    background-color: rgb(252, 129, 92);
+    cursor: none;
+}
+.footer{
+    display: flex;
+    justify-content: stretch;
+}
+.number{
+    animation-duration: 10s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 200%;
+      width: 500%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
