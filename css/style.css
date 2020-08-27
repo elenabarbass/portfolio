@@ -103,7 +103,7 @@
     h1{
         color: #4b4a4a;
         font-family: "LovinSummer.ttf";
-        font-size: 110px;
+        font-size: 90px;
         text-align: center;
         padding-top: 700px;
         margin-left: 16px;
@@ -112,7 +112,7 @@
     h2{
         color: black;
         font-family: "LibreBaskerville-Italic.ttf"; 
-        font-size: 30px;
+        font-size: 24px;
         text-align: left;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -121,7 +121,7 @@
     h3{
         color: #4b4a4a;
         font-family: "Overpass-SemiBold.ttf"; 
-        font-size: 22px;
+        font-size: 20px;
         text-align: left;
         padding-top: 24px;
         padding-bottom: 24px; 
@@ -129,13 +129,13 @@
     p{
         color:#414141;
         font-family: "OpenSans-Regular.ttf"; 
-        font-size: 20px;
+        font-size: 18px;
         padding-top: 10px;
         padding-bottom: 18px;
         line-height: 32px;
         }
 .parrafo{ 
-     font-size: 18px;
+     font-size: 16px;
      line-height: 32px;
 
 }
