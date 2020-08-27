@@ -95,7 +95,7 @@
     
 }
 .img img{
-    width: 90%;
+    width: 100%;
     animation-iteration-count: initial;
     animation-duration: 5s;
     animation-name: slidein;
@@ -103,7 +103,7 @@
     h1{
         color: #4b4a4a;
         font-family: "LovinSummer.ttf";
-        font-size: 88px;
+        font-size: 110px;
         text-align: center;
         padding-top: 700px;
         margin-left: 16px;
@@ -121,7 +121,7 @@
     h3{
         color: #4b4a4a;
         font-family: "Overpass-SemiBold.ttf"; 
-        font-size: 24px;
+        font-size: 22px;
         text-align: left;
         padding-top: 24px;
         padding-bottom: 24px; 
@@ -129,13 +129,13 @@
     p{
         color:#414141;
         font-family: "OpenSans-Regular.ttf"; 
-        font-size: 22px;
+        font-size: 20px;
         padding-top: 10px;
         padding-bottom: 18px;
         line-height: 32px;
         }
 .parrafo{ 
-     font-size: 20px;
+     font-size: 18px;
      line-height: 32px;
 
 }
