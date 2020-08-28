@@ -103,7 +103,7 @@
     h1{
         color: #4b4a4a;
         font-family: "LovinSummer.ttf";
-        font-size: 85px;
+        font-size: 100px;
         text-align: center;
         padding-top: 700px;
         margin-left: 16px;
@@ -179,10 +179,10 @@
 }
 input {
     border-radius: 16px 16px;
-    padding: 12px 24px;
+    padding: 12px 100px;
     text-align: center;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     outline: none;
     border-color: rgb(255, 123, 46);
@@ -194,15 +194,18 @@ input:hover{
     background-color:rgb(255, 123, 46);
     outline: none;
     border: none;
+    font-size: 14px;
+    padding: 12px 100px;
 }
 input:active{
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 100px;
     outline: none;
     border: none;
     margin: none;
     background-color: rgb(250, 157, 128);
     cursor: none;
+    font-size: 14px;
   
 }
 .footer{
