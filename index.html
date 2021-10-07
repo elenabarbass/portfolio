@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es-ES"><head>
+<meta charset="utf-8">
+<title>María Elena Barbas Sánchez Portfolio</title>
+
+<!-- Información sobre el documento web -->
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="description" content="Portfolio">
+<meta name="author" content="María Elena Barbas Sánchez">
+<meta name="generator" content="Visual Studio Code">
+	
+<!-- Etiquetas de adaptación del contenido -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- FAVICON (icono de favoritos)-->
+<link rel="icon" href="favicon.ico" type="image/ico">
+
+<!-- Enlace externo a un documento de estilos CSS -->
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+	
+<!-- Enlace externo a un documento de funciones JavaScript -->
+<script src="js/funciones.js"></script>	
+
+<!-- Enlace extero a unn tipo de letra de Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<!-- Enlace extero a unn font awesone-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<nav class="nav">
+	<div class="topnav" id="myTopnav">
+  <a href="#footer" class="active">M &#119051 B</a>
+  <a href="#about">Sobre mí</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+ 
+  
+ 
+  <a href="#work">Sobre mi trabajo y mis prototipos</a>
+  <div class="dropdown">
+    <button class="dropbtn">Proyectos web e ingeniería
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.behance.net/melenbarbas" target="_blank">Diseño UX/UI</a>
+      <a href="https://20659alumno2.com/" target="_blank">Desarrollo Web</a>
+      <a href="https://www.linkedin.com/in/mar%C3%ADa-elena-barbas-s%C3%A1nchez-9922a24b/" target="_blank">Gestión y ejecución de proyectos de ingeniería</a>
+    </div>
+  </div>
+  <a href="#contact">Contacto</a>
+</div>
+</nav>
+	
+<div class="container">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="img/yo.JPG" style="width:100%">
+    <div class="text">¡HOLA! SOY MARÍA ELENA BARBAS</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext1">2 / 4</div>
+    <img src="img/diseno.jpg" style="width:100%">
+    <div class="text1">SOY DISEÑADORA UX/UI</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext1">3 / 4</div>
+    <img src="img/desarrollo.jpg" style="width:100%">
+    <div class="text">SOY DESARROLLADORA WEB</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="img/geo.jpg" style="width:100%">
+    <div class="text">SOY GEÓLOGA</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <p class="dot" onclick="currentSlide(1)"></p>
+  <p class="dot" onclick="currentSlide(2)"></p>
+  <p class="dot" onclick="currentSlide(3)"></p>
+  <p class="dot" onclick="currentSlide(4)"></p>
+</div>
+	
+<script>
+	window.onload = slideShow();
+</script>	
+
+	<div class="row3">
+		<div class="column3">
+		  <div class="content3">
+			<div class="flip-box">
+				<div class="flip-box-inner">
+				  <div class="flip-box-front">
+			<img src="img/sobremi.jpg" alt="Girl" style="width:100%">
+		  </div>
+		  <div class="flip-box-back" id="about">
+			<h3>Sobre mí</h3>
+			<p><small>Diseñadora web, mi background de 13 años en geotécnica redactando  proyectos y gestión en ejecución, me ha llevado a colaborar en equipos multidisciplinarios proporcinándome una perspectiva global. Con mis capacidades en investigación cuantitativa y cualitativa busco soluciones para el usuario en el diseño del producto con datos sacados de un profundo análisis.</small></p>
+		  </div>
+		</div>
+	  </div>
+		</div>
+		</div>
+		<div class="column3">
+		  <div class="content3">
+			<div class="flip-box">
+				<div class="flip-box-inner">
+				  <div class="flip-box-front">
+			<img src="img/trabajo.jpg" alt="" style="width:100%">
+		</div>
+			<div class="flip-box-back" id="work">
+				<h3>Sobre mi trabajo</h3>
+				<p><small> Me impulsan 2 fuerzas: la que escucha para encontrar un problema significativo y la que intenta proponer soluciones.
+				Como diseñadora apago mi opinión y activo mi capacidad para centrarme en la experiencia del usuario, averiguando cómo conocerle, cuál es su recorrido sobre un producto. Las respuestas formarán la base sólida para mi investigación y serán el 1º paso en el proceso para mejorar la experiencia del usuario.</small></p>
+			  </div>
+			</div>
+		  </div>
+			</div>
+		  </div>
+		
+		<div class="column3">
+		  <div class="content3">
+			<div class="flip-box">
+				<div class="flip-box-inner">
+				  <div class="flip-box-front">
+			<img src="img/contacto.jpg" alt="contacto" style="width:100%">
+		</div>
+		<div class="flip-box-back" id="contact">
+			<h3>Contacto</h3>
+			<p><i class="fa fa-user fa-fw w3-xxlarge w3-margin-right"></i> María Elena Barbas Sánchez</p>
+			<p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Madrid SP</p>
+			<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Teléfono: +34 658610008</p>
+			<p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ebarbassanchez@gmail.com</p>
+			
+		  </div>
+		</div>
+	  </div>
+		</div>
+	  </div>
+	</div>
+
+<!--  IMAGEN 1 -->
+<div class="divGeneral">
+<div class="contenedor">
+	<img src="img/pelis/datesalud.png" alt="date salud" title="date salud" class="imagen">
+	<div class="superponerTop">
+		<div class="texto">
+		<h3>Date Salud</h3><p>Proyecto final en el Bootcamp UX/UI de Ironhack. Ha sido desarrollado de manera individual en 2 semanas partiendo de la idea de digitalizar la tarjeta sanitaria. Tendremos todos los servicios sanitarios y de nuestros tutelados en una sola app.</p>
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn1" class="boton" onClick="cajaModal1()">Ver prototipo</button>
+		</div>
+	</div>
+</div>
+<!-- The Modal -->
+	<div id="myModal1" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close1">&times;</span>
+			<iframe width="100%" height="400px" src="https://player.vimeo.com/video/450223973?h=84910ae29d" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+
+<!--  FIN IMAGEN 1 -->
+<!--  ---------------------------------------- -->
+<!--  IMAGEN 2 -->
+<div class="contenedor">
+	<img src="img/pelis/plansalud.png" alt="imagen avatar" title="Avatar" class="imagen">
+	<div class="superponerTop">
+		<div class="texto">
+		<h3>Come Sano</h3><p>El primer proyecto individual fué crear una nueva aplicación wellness. El producto final fue la creación de un prototipo interactivo centrada en el comportamiento de las personas en relación con los hábitos alimenticios.</p>
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn2" class="boton" onClick="cajaModal2()">Ver prototipo</button>
+	</div>
+ </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+ <!-- Modal content -->
+ <div class="modal-content">
+	 <span class="close2">&times;</span>
+	 <iframe width="100%" height="400px" src="https://player.vimeo.com/video/449752252?h=b858a91a1b" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+</div>
+<!--  FIN IMAGEN 2 -->
+<!--  ---------------------------------------- -->
+  <!--  IMAGEN 3 -->
+  <div class="contenedor">
+    <img src="img/pelis/bizum.PNG" alt="imagen avatar" title="Avatar" class="imagen">
+    <div class="superponerTop">
+      <div class="texto">
+      <h3>Bizum Grupos</h3><p> Elegir una aplicación y añadirle nueva funcionalidad. Tuvímos en cuenta la parte de investigación y añadir el diseño UI. Nos decantamos por Bizum, las aplicaciones financieras tienen cierta dificultad y asumir el reto de dar solución a una aplicación altamente conocida por los usuarios.</p>
+  	<!-- Trigger/Open The Modal -->
+	  <button id="myBtn3" class="boton" onClick="cajaModal3()">Ver prototipo</button>
+	</div>
+</div>
+</div>
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+   <span class="close3">&times;</span>
+<iframe width="100%" height="400" src="https://player.vimeo.com/video/448878709?h=02dc506315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<!--  FIN IMAGEN 3 -->
+<!--  ---------------------------------------- -->
+<!--  IMAGEN 4 -->
+<div class="contenedor">
+	<img src="img/pelis/libromola.PNG" alt="imagen avatar" title="Avatar" class="imagen">
+	<div class="superponerTop">
+		<div class="texto">
+		<h3>Libro Mola Más</h3><p>Diseñar para multidispositivo y responsive. Tras el proceso de rediseño de la página web, El Libro Mola Más, realizamos el diseño responsive de una app para esta librería.</p>
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn4" class="boton" onClick="cajaModal4()">Ver prototipo</button>
+       	  </div>
+    	</div>
+	</div>
+          <!-- The Modal -->
+	<div id="myModal4" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close4">&times;</span>
+		<iframe width="100%" height="400" src="https://player.vimeo.com/video/448982208?h=090d5f710b" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+<!--  FIN IMAGEN 4 -->
+<!--  ---------------------------------------- -->
+<!--  IMAGEN 5 -->
+<div class="contenedor">
+	<img src="img/pelis/libroweb.PNG" alt="imagen avatar" title="Avatar" class="imagen">
+	<div class="superponerTop">
+		<div class="texto">
+		<h3>Web E-commerce</h3><p>Rediseñar una web (ecommerce) existente, una librería en línea, detectar que problemática tiene. Elegimos la web de El Libro Mola Más porque nos daba mucha posibilidad de mejora.</p>
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn5" class="boton" onClick="cajaModal5()">Ver prototipo</button>
+	</div>
+  </div>
+</div>
+	  <!-- The Modal -->
+<div id="myModal5" class="modal">
+
+ <!-- Modal content -->
+ <div class="modal-content">
+	 <span class="close5">&times;</span>
+ <iframe width="100%" height="400" src="https://player.vimeo.com/video/448643060?h=e0e1ec3285" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+</div>
+<!--  FIN IMAGEN 5 -->
+<!--  ---------------------------------------- -->
+<!--  IMAGEN 6 -->
+<div class="contenedor">
+	<img src="img/pelis/museo.png" alt="imagen avatar" title="Avatar" class="imagen">
+	<div class="superponerTop">
+		<div class="texto">
+		<h3>Método Thinking y Agile</h3><p>Reto de digitalizar los servicios de un museo, pensar en lo que realmente hace que la visita a un museo sea más fácil y atractiva. Para encontrar la solución final, partimos de una metodología de diseño que proporciona un enfoque basado en soluciones para resolver problemas.</p>
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn6" class="boton" onClick="cajaModal6()">Ver prototipo</button>
+	</div>
+  </div>
+</div>
+		  <!-- The Modal -->
+<div id="myModal6" class="modal">
+
+ <!-- Modal content -->
+ <div class="modal-content">
+	 <span class="close6">&times;</span>
+ <iframe width="100%" height="400" src="https://player.vimeo.com/video/448614548?h=bfb0c0ca56" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+</div>
+<!--  FIN IMAGEN 6 -->
+<!--  ---------------------------------------- -->
+</div> <!--  FIN div general -->
+	<div class="tabs">
+	<div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'London')">LANDING PAGE</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">UI KIT</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">MOODBOARD</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent" style="display: block">
+	<h3>LANDING PAGE</h3>
+	<img src="img/landingpage.jpg" alt="collage1" style="width: 100%">
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>UI KIT</h3>
+	<img src="img/uikit.jpg" alt="collage2" style="width: 100%">
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>MOODBOARD</h3>
+  
+	<img src="img/moodboard.jpg" alt="collage3" style="width: 100%">
+</div>
+	
+</div>	
+</div>
+<!-- The social media icon bar -->
+<div class="iconsocial-bar">
+  <a href="https://www.linkedin.com/in/elenabarbassanchez/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <a href="https://vimeo.com/user121557100" class="vimeo" target="_blank"><i class="fa fa-vimeo"></i></a>
+  <a href="https://medium.com/@ebarbassanchez" class="medium" target="_blank"><i class="fa fa-medium"></i></a>
+  <a href="https://www.instagram.com/tootsidelia/?hl=es" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+</div>
+	 <div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <!--<a href="http://www.google.es/search" target="_blank"><i class="fa fa-search"></i></a>-->
+  <a href="mailto:ebarbassanchez@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+  <a href="https://www.google.es/maps/dir//Av.+Isabel+de+Farnesio,+30,+28660+Boadilla+del+Monte,+Madrid/@40.4004119,-3.9360188,13z/data=!4m17!1m7!3m6!1s0xd418ff359b5bdb9:0x1bc291bacaa0c9d4!2sC.+Isabel+de+Farnesio,+30,+28660+Boadilla+del+Monte,+Madrid!3b1!8m2!3d40.4016107!4d-3.886617!4m8!1m0!1m5!1m1!1s0xd418ff359b5bdb9:0x1bc291bacaa0c9d4!2m2!1d-3.8866379!2d40.4016018!3e4?hl=es" target="_blank"><i class="fa fa-globe"></i></a>
+  <a href="tel:658610008"><i class="fa fa-phone"></i></a>
+</div>
+
+<footer>
+<div id="site-content";>
+	<div class="typewriter" id="footer">
+		
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+		<span>M</span><span>&#119051</span><span>B</span>
+		<br><br>		
+		<h3>&#174 Diseñado y desarrollado por María Elena Barbas Sánchez.</h3>
+	  </div>		
+</div>
+</footer>
+<br>
+<a href="#home">
+	<i class="fa fa-arrow-circle-up" style="font-size: 3em; margin-left: 50%; color:#4CAF50";></i>
+	</a>
+</div>
+</body>
+</html>
